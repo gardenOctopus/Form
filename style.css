@@ -68,7 +68,7 @@ body {
 
     display: inline-block;
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     padding: 10px;
 }
 
@@ -79,33 +79,62 @@ body {
     height: 100vh;
 }
 
-.main-content {
+.main-content,
+#form-content {
     width: 100%;
+    padding: 20px 100px 20px 100px;
+}
+
+.main-content {
     height: 25vh;
-    padding: 20px;
 }
 
 #form-content {
     background-color: #fff;
 
-    width: 100%;
     height: 50vh;
-    padding: 20px;
 }
 
 ul li{
     list-style-type: none;
+
+    margin-top: 25px;
+    margin-right: 100px;
     display: inline-block;
+}
+
+label {
+    display: block;
+
+    font-family: 'pt_sansregular';
+    font-size: 18px;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+}
+
+input:valid {
+    border: #d9e5eeff solid 2px;
+}
+
+input:invalid {
+    border-color: #984444ff;
+}
+
+input:focus {
+    outline: none;
 }
 
 button {
     background-color: #449891ff;
+    box-shadow: 3px 3px 10px grey;
     border: 0;
     border-radius: 3px;
-    padding: 10px;
+    padding: 15px;
 
-    font-size: 25px;
-    font-weight: bolder;
+    font-size: 20px;
     font-family: 'pt_sansregular';
 }
 
@@ -123,5 +152,9 @@ a {
 
 a:hover {
     color: #984444ff;
+}
+
+#small-text {
+    font-size: 18px;
 }
 
