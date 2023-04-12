@@ -44,7 +44,7 @@
 
 body {
     color: #1e3242ff;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'pt_serifregular';
 
     display: flex;
@@ -62,7 +62,7 @@ body {
     background-color: #253544bf;
 
     color: #ffffffb9;
-    font-size: 80px;
+    font-size: 6vw;
     font-weight: bolder;
     text-align: center;
 
@@ -155,6 +155,20 @@ a:hover {
 }
 
 #small-text {
-    font-size: 18px;
+    font-size: 14px;
 }
 
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size: 13px;
+    }
+
+    #main {
+        background-color: pink;
+    }
+
+    button {
+        padding: 7px; 
+        font-size: 15px;
+    }
+  }
