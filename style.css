@@ -60,19 +60,19 @@ body {
 
 #dr-money-logo {
     background-color: #253544bf;
+    width: 35vw;
 
     color: #ffffffb9;
     font-size: 6vw;
     font-weight: bolder;
-    text-align: center;
 
-    display: inline-block;
-    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #main {
     background-color: #d9e5eeff;
-    
     width: 65vw;
 }
 
@@ -125,7 +125,7 @@ button {
     box-shadow: 3px 3px 10px grey;
     border: 0;
     border-radius: 3px;
-    padding: 15px;
+    padding: 10px 15px; 
 
     font-size: 20px;
     font-family: 'pt_sansregular';
@@ -149,6 +149,34 @@ a:hover {
 
 #small-text {
     font-size: 14px;
+}
+
+@media  screen and (min-width: 1500px){
+    body {
+        font-size: 25px;
+    }
+
+    ul li {
+        margin-right: 200px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    input {
+        height: 40px;
+        width: 250px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    #small-text {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
