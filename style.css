@@ -56,9 +56,13 @@ body {
 
     width: 35vw;
     height: 100vh;
+
+    position: relative;
 }
 
-#dr-money-logo {
+
+#dr-money-logo,
+#photo-credit {
     background-color: #253544bf;
     width: 35vw;
 
@@ -69,6 +73,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: absolute;
+    top: 25vh;
+}
+
+#photo-credit {
+    font-size: 16px;
+    background-color: #000;
+
+    position: absolute;
+    top: 98vh;
 }
 
 #main {
@@ -78,7 +93,8 @@ body {
 
 .main-content {
     width: 100%;
-    padding: 20px 50px 20px 50px;
+    height: 25vh;
+    padding: 20px 50px;
 }
 
 #form-content {
